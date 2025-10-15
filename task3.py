@@ -12,3 +12,12 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a = input("please enter the value of a")
+b = input("please enter the value of b")
+c = input("please enter the value of c")
+a = int(a)
+b = int(b)
+c = int(c)
+x = ((c-b)/a)
+print(f"So the x equals {x}")

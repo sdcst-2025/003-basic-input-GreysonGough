@@ -13,3 +13,9 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+
+volume = input("what is volume")
+volume = float(volume)
+radius = (volume*3)/12.5663706144
+radius = radius**(1/3)
+print(f"The radius is {radius}")
